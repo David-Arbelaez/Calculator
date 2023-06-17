@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.App{
+    padding-top: 10px;
+    width: 100%;
+    height: 100vh;
+    background-color: #e7e8e8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    letter-spacing: 9px;
+    font-size: 35px;
+}
+
+
+.calculator-container{
+    min-width: 320px;
+    height: 620px;
+    background-color: #22252d;
+    border-radius: 20px;
+    box-shadow: 5px 5px 40px rgb(87, 87, 87);
+}
+
+.screen{
+    height: 40%;
+}
+
+.keyboard{
+    border-radius: 20px;
+    width: 100%;
+    height: 60%;
+    background-color: #292d36;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.Button{
+    color: white;
+}
+
+.half1{
+    width: 25%;
+    padding-right: 25%;
+}
+
+.half2{
+    width: 25%;
+    padding-left: 25%;
+}
+
+.equal{
+    width: 50%;
+}

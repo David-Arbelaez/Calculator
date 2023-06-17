@@ -1,0 +1,14 @@
+.input{
+    height: 80%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    padding: 11px;
+    padding-right: 30px;
+    margin: 1px solid #888;
+    letter-spacing: 2px;
+}
